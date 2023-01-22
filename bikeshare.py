@@ -1,3 +1,4 @@
+# import packages
 import time
 import pandas as pd
 import numpy as np
@@ -16,7 +17,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington)
     while True:
        city = input('Which city would you like to explore? Enter: Chicago, New York City, or Washington?').lower()
        if (city in['chicago', 'new york city', 'washington']):
@@ -174,6 +175,8 @@ def user_stats(df):
 
 def raw_data(df):
     """Displays 5 rows of raw data on request."""
+    
+     # Display raw data on users choice 
     raw_data = 0
     while True:
         choice = input("Do you want to see the raw data? Yes or No: ").lower()
