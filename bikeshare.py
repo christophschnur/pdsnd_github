@@ -34,7 +34,7 @@ def get_filters():
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-       day = input('Which day of the weekday would you like to explore? Enter: monday, tuesday, wednesday, thursday, friday, saturday, sunday or all?').lower()
+       day = input('Which day of the week would you like to explore? Enter: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or All?').lower()
        if (day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']):
             break
        else:
