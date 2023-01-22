@@ -4,11 +4,11 @@
 ### Project: Explore US Bikeshare Data - Udacity Nanodegree: Programming for Data Science with Python
 
 ### Description
-Describe what your project is about and what it does
+Use Python to explore U.S. bikeshare data. Calculate statistics and build an interactive environment where users can choose data and filter for a dataset to analyze.
 
 ### Files used
-Include the files used
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
